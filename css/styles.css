@@ -1,0 +1,44 @@
+button{
+  	color: #fff;
+    border-radius: 3px;
+  	border: none;
+  	padding: 8px 18px;
+  	font-style: 24px;
+}
+button:focus{
+  outline: none;
+}
+h2{
+  text-align: center;
+}
+ul#orders{
+  list-style: none;
+  padding-left: 0;
+  overflow: auto;
+  height: 400px;
+}
+ul li{
+  background-color: #eee;
+  padding: 10px 0 10px 20px;
+  margin-bottom: 10px;
+}
+input[type=text]{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	padding-left: 8px;
+  font-size: 18px;
+	height: 35px;
+	width: 95%;
+}
+#addOrder{
+	background-color: #45cae6;
+  margin-bottom: 20px;
+}
+.remove{
+	background-color: #FA8072;
+}
+.remove:hover{
+  background-color: #F00;
+}

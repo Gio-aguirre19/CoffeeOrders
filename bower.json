@@ -1,0 +1,21 @@
+{
+  "name": "CoffeeOrders2",
+  "authors": [
+    "Giovani Aguirre <aguirregio19@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mustache.js": "mustache#^2.2.1"
+  }
+}
