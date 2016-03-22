@@ -22,6 +22,15 @@ ul li{
   padding: 10px 0 10px 20px;
   margin-bottom: 10px;
 }
+ul li .edit{
+  display: none;
+}
+ul li.edit .edit{
+  display: initial;
+}
+ul li.edit .noEdit{
+  display: none;
+}
 input[type=text]{
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -41,4 +50,13 @@ input[type=text]{
 }
 .remove:hover{
   background-color: #F00;
+}
+.editOrder{
+  background-color: #00FF5E;
+}
+.saveEdit{
+  background-color: #00ff00;
+}
+.cancelEdit{
+  background-color: #00F;
 }
